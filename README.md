@@ -1,4 +1,4 @@
-# arv-hack 2021
+# Subsea Object Detection (Hackathon)
 
 2nd place solution from [AI and Robotics Hackathon 2021](https://www.arvhackathon2021.riseaccel.com/)
 
