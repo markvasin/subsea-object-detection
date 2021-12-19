@@ -1,5 +1,9 @@
 # arv-hack 2021
 
+2nd place solution from [AI and Robotics Hackathon 2021](https://www.arvhackathon2021.riseaccel.com/)
+[Presentation](https://github.com/markvasin/subsea-object-detection/blob/master/Presentation.pdf)
+
+
 ## How to run
 
 1. Install dependencies
@@ -60,9 +64,6 @@ curl -X POST \
 
 ## YOLO
 
-```bash 
-ssh -i "access_key.pem" ubuntu@ec2-13-213-30-116.ap-southeast-1.compute.amazonaws.com
-```
 
 ```bash 
 conda activate yolo
@@ -80,8 +81,3 @@ python train.py --img 640 --batch 40 --epochs 100 --data data.yaml --weights /ho
 python train.py --img 640 --batch 40 --epochs 150 --data data.yaml --weights syn-v2-ep10.pt --cache
 python train.py --img 640 --batch 40 --epochs 200 --data data.yaml --weights /home/ec2-user/yolov5/runs/train/exp13/weights/best.pt --cache
 
-
-Run in detach mode
-
-nohup python train.py --img 640 --batch 32 --epochs 300 --data ./roboflow.yaml --weights yolov5s.pt --cache > run.txt &
-```
