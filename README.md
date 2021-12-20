@@ -4,7 +4,7 @@
 
 Our team's [Presentation](https://github.com/markvasin/subsea-object-detection/blob/master/Presentation.pdf)
 
-###Scoreboard
+### Scoreboard
 
 ![score](./arv-hackathon.jpeg)
 
