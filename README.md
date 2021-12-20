@@ -2,8 +2,11 @@
 
 2nd place solution from [AI and Robotics Hackathon 2021](https://www.arvhackathon2021.riseaccel.com/)
 
-[Presentation](https://github.com/markvasin/subsea-object-detection/blob/master/Presentation.pdf)
+Our team's [Presentation](https://github.com/markvasin/subsea-object-detection/blob/master/Presentation.pdf)
 
+###Scoreboard
+
+![score](./arv-hackathon.jpeg)
 
 ## How to run
 
